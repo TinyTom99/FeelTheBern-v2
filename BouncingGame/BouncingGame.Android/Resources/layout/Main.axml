@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <CocosSharp.CCGameView
+        android:id="@+id/GameView"
+        android:layout_width="fill_parent"
+        android:layout_height="465.5dp"
+        android:clickable="true"
+        android:visibility="visible"
+        android:longClickable="true"
+        android:filterTouchesWhenObscured="true"
+        android:hapticFeedbackEnabled="true"
+        android:duplicateParentState="true"
+        android:isScrollContainer="true"
+        android:keepScreenOn="true"
+        android:saveEnabled="true"
+        android:soundEffectsEnabled="true" />
+    <Button
+        android:text="Return to Main Menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/GameViewToMenuBtn" />
+</LinearLayout>

@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:orientation="vertical"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/HighScoresLayout"
+    p1:background="#ff000000">
+    <TextView
+        p1:text="High Scores"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/HighScoresTitle"
+        p1:textSize="42dp"
+        p1:paddingLeft="10dp" />
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/Score1Layout">
+        <TextView
+            p1:text="#01"
+            p1:textAppearance="?android:attr/textAppearanceLarge"
+            p1:layout_width="wrap_content"
+            p1:layout_height="match_parent"
+            p1:id="@+id/ScoreNumber1"
+            p1:paddingLeft="15dp"
+            p1:paddingBottom="5dp" />
+        <TextView
+            p1:text="High Score"
+            p1:textAppearance="?android:attr/textAppearanceLarge"
+            p1:layout_width="wrap_content"
+            p1:layout_height="match_parent"
+            p1:id="@+id/ScoreName1"
+            p1:paddingLeft="5dp"
+            p1:paddingBottom="5dp" />
+        <TextView
+            p1:text="000000000"
+            p1:textAppearance="?android:attr/textAppearanceLarge"
+            p1:layout_width="wrap_content"
+            p1:layout_height="match_parent"
+            p1:id="@+id/Score1"
+            p1:paddingLeft="25dp"
+            p1:paddingBottom="5dp" />
+    </LinearLayout>
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/Score1Layout">
+        <TextView
+            p1:text="#02"
+            p1:textAppearance="?android:attr/textAppearanceLarge"
+            p1:layout_width="wrap_content"
+            p1:layout_height="match_parent"
+            p1:id="@+id/ScoreNumber2"
+            p1:paddingLeft="15dp"
+            p1:paddingBottom="5dp" />
+        <TextView
+            p1:text="High Score"
+            p1:textAppearance="?android:attr/textAppearanceLarge"
+            p1:layout_width="wrap_content"
+            p1:layout_height="match_parent"
+            p1:id="@+id/ScoreName2"
+            p1:paddingLeft="5dp"
+            p1:paddingBottom="5dp" />
+        <TextView
+            p1:text="000000000"
+            p1:textAppearance="?android:attr/textAppearanceLarge"
+            p1:layout_width="wrap_content"
+            p1:layout_height="match_parent"
+            p1:id="@+id/Score2"
+            p1:paddingLeft="25dp"
+            p1:paddingBottom="5dp" />
+    </LinearLayout>
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/Score1Layout">
+        <TextView
+            p1:text="#03"
+            p1:textAppearance="?android:attr/textAppearanceLarge"
+            p1:layout_width="wrap_content"
+            p1:layout_height="match_parent"
+            p1:id="@+id/ScoreNumber3"
+            p1:paddingLeft="15dp"
+            p1:paddingBottom="5dp" />
+        <TextView
+            p1:text="High Score"
+            p1:textAppearance="?android:attr/textAppearanceLarge"
+            p1:layout_width="wrap_content"
+            p1:layout_height="match_parent"
+            p1:id="@+id/ScoreName3"
+            p1:paddingLeft="5dp"
+            p1:paddingBottom="5dp" />
+        <TextView
+            p1:text="000000000"
+            p1:textAppearance="?android:attr/textAppearanceLarge"
+            p1:layout_width="wrap_content"
+            p1:layout_height="match_parent"
+            p1:id="@+id/Score3"
+            p1:paddingLeft="25dp"
+            p1:paddingBottom="5dp" />
+    </LinearLayout>
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/Score1Layout">
+        <TextView
+            p1:text="#04"
+            p1:textAppearance="?android:attr/textAppearanceLarge"
+            p1:layout_width="wrap_content"
+            p1:layout_height="match_parent"
+            p1:id="@+id/ScoreNumber4"
+            p1:paddingLeft="15dp"
+            p1:paddingBottom="5dp" />
+        <TextView
+            p1:text="High Score"
+            p1:textAppearance="?android:attr/textAppearanceLarge"
+            p1:layout_width="wrap_content"
+            p1:layout_height="match_parent"
+            p1:id="@+id/ScoreName4"
+            p1:paddingLeft="5dp"
+            p1:paddingBottom="5dp" />
+        <TextView
+            p1:text="000000000"
+            p1:textAppearance="?android:attr/textAppearanceLarge"
+            p1:layout_width="wrap_content"
+            p1:layout_height="match_parent"
+            p1:id="@+id/Score4"
+            p1:paddingLeft="25dp"
+            p1:paddingBottom="5dp" />
+    </LinearLayout>
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/Score1Layout">
+        <TextView
+            p1:text="#05"
+            p1:textAppearance="?android:attr/textAppearanceLarge"
+            p1:layout_width="wrap_content"
+            p1:layout_height="match_parent"
+            p1:id="@+id/ScoreNumber5"
+            p1:paddingLeft="15dp"
+            p1:paddingBottom="5dp" />
+        <TextView
+            p1:text="High Score"
+            p1:textAppearance="?android:attr/textAppearanceLarge"
+            p1:layout_width="wrap_content"
+            p1:layout_height="match_parent"
+            p1:id="@+id/ScoreName5"
+            p1:paddingLeft="5dp"
+            p1:paddingBottom="5dp" />
+        <TextView
+            p1:text="000000000"
+            p1:textAppearance="?android:attr/textAppearanceLarge"
+            p1:layout_width="wrap_content"
+            p1:layout_height="match_parent"
+            p1:id="@+id/Score5"
+            p1:paddingLeft="25dp"
+            p1:paddingBottom="5dp" />
+    </LinearLayout>
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/Score1Layout">
+        <TextView
+            p1:text="#06"
+            p1:textAppearance="?android:attr/textAppearanceLarge"
+            p1:layout_width="wrap_content"
+            p1:layout_height="match_parent"
+            p1:id="@+id/ScoreNumber6"
+            p1:paddingLeft="15dp"
+            p1:paddingBottom="5dp" />
+        <TextView
+            p1:text="High Score"
+            p1:textAppearance="?android:attr/textAppearanceLarge"
+            p1:layout_width="wrap_content"
+            p1:layout_height="match_parent"
+            p1:id="@+id/ScoreName6"
+            p1:paddingLeft="5dp"
+            p1:paddingBottom="5dp" />
+        <TextView
+            p1:text="000000000"
+            p1:textAppearance="?android:attr/textAppearanceLarge"
+            p1:layout_width="wrap_content"
+            p1:layout_height="match_parent"
+            p1:id="@+id/Score6"
+            p1:paddingLeft="25dp"
+            p1:paddingBottom="5dp" />
+    </LinearLayout>
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/Score1Layout">
+        <TextView
+            p1:text="#07"
+            p1:textAppearance="?android:attr/textAppearanceLarge"
+            p1:layout_width="wrap_content"
+            p1:layout_height="match_parent"
+            p1:id="@+id/ScoreNumber7"
+            p1:paddingLeft="15dp"
+            p1:paddingBottom="5dp" />
+        <TextView
+            p1:text="High Score"
+            p1:textAppearance="?android:attr/textAppearanceLarge"
+            p1:layout_width="wrap_content"
+            p1:layout_height="match_parent"
+            p1:id="@+id/ScoreName7"
+            p1:paddingLeft="5dp"
+            p1:paddingBottom="5dp" />
+        <TextView
+            p1:text="000000000"
+            p1:textAppearance="?android:attr/textAppearanceLarge"
+            p1:layout_width="wrap_content"
+            p1:layout_height="match_parent"
+            p1:id="@+id/Score7"
+            p1:paddingLeft="25dp"
+            p1:paddingBottom="5dp" />
+    </LinearLayout>
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/Score1Layout">
+        <TextView
+            p1:text="#08"
+            p1:textAppearance="?android:attr/textAppearanceLarge"
+            p1:layout_width="wrap_content"
+            p1:layout_height="match_parent"
+            p1:id="@+id/ScoreNumber8"
+            p1:paddingLeft="15dp"
+            p1:paddingBottom="5dp" />
+        <TextView
+            p1:text="High Score"
+            p1:textAppearance="?android:attr/textAppearanceLarge"
+            p1:layout_width="wrap_content"
+            p1:layout_height="match_parent"
+            p1:id="@+id/ScoreName8"
+            p1:paddingLeft="5dp"
+            p1:paddingBottom="5dp" />
+        <TextView
+            p1:text="000000000"
+            p1:textAppearance="?android:attr/textAppearanceLarge"
+            p1:layout_width="wrap_content"
+            p1:layout_height="match_parent"
+            p1:id="@+id/Score8"
+            p1:paddingLeft="25dp"
+            p1:paddingBottom="5dp" />
+    </LinearLayout>
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/Score1Layout">
+        <TextView
+            p1:text="#09"
+            p1:textAppearance="?android:attr/textAppearanceLarge"
+            p1:layout_width="wrap_content"
+            p1:layout_height="match_parent"
+            p1:id="@+id/ScoreNumber9"
+            p1:paddingLeft="15dp"
+            p1:paddingBottom="5dp" />
+        <TextView
+            p1:text="High Score"
+            p1:textAppearance="?android:attr/textAppearanceLarge"
+            p1:layout_width="wrap_content"
+            p1:layout_height="match_parent"
+            p1:id="@+id/ScoreName9"
+            p1:paddingLeft="5dp"
+            p1:paddingBottom="5dp" />
+        <TextView
+            p1:text="000000000"
+            p1:textAppearance="?android:attr/textAppearanceLarge"
+            p1:layout_width="wrap_content"
+            p1:layout_height="match_parent"
+            p1:id="@+id/Score9"
+            p1:paddingLeft="25dp"
+            p1:paddingBottom="5dp" />
+    </LinearLayout>
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/Score10Layout">
+        <TextView
+            p1:text="#10"
+            p1:textAppearance="?android:attr/textAppearanceLarge"
+            p1:layout_width="wrap_content"
+            p1:layout_height="match_parent"
+            p1:id="@+id/ScoreNumber10"
+            p1:paddingLeft="15dp"
+            p1:paddingBottom="5dp" />
+        <TextView
+            p1:text="High Score"
+            p1:textAppearance="?android:attr/textAppearanceLarge"
+            p1:layout_width="wrap_content"
+            p1:layout_height="match_parent"
+            p1:id="@+id/ScoreName10"
+            p1:paddingLeft="5dp"
+            p1:paddingBottom="5dp" />
+        <TextView
+            p1:text="000000000"
+            p1:textAppearance="?android:attr/textAppearanceLarge"
+            p1:layout_width="wrap_content"
+            p1:layout_height="match_parent"
+            p1:id="@+id/Score10"
+            p1:paddingLeft="25dp"
+            p1:paddingBottom="5dp" />
+    </LinearLayout>
+    <Button
+        p1:text="Return to Main Menu"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/ScoresToMenuBtn" />
+</LinearLayout>

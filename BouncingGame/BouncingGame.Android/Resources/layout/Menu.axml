@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff000000"
+    android:id="@+id/MainLayout">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TitleLayout">
+        <TextView
+            android:text="#"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/TitleText1"
+            android:textSize="42dp"
+            android:paddingLeft="10dp" />
+        <TextView
+            android:text="FEEL"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/TitleText2"
+            android:textSize="42dp"
+            android:textColor="#ff283593" />
+        <TextView
+            android:text="THE"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/TitleText3"
+            android:textSize="42dp"
+            android:textColor="#ff0091ea" />
+        <TextView
+            android:text=" BERN"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/TitleText4"
+            android:textSize="42dp"
+            android:textColor="#ffff5252" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/MenuButtonLayout">
+        <Button
+            android:text="Start Game"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/StartGameBtn"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:paddingBottom="10dp"
+            android:background="#fffafafa"
+            android:textColor="#ff000000"
+            android:textSize="30dp"
+            android:paddingTop="10dp" />
+        <Button
+            android:text="High Scores"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/HighScoresBtn"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:background="#ff283593"
+            android:textColor="#ff000000"
+            android:textSize="30dp" />
+        <Button
+            android:text="Help"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/HelpBtn"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:background="#ff0288d1"
+            android:textColor="#ff000000"
+            android:textSize="30dp" />
+        <Button
+            android:text="Quit Game"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/QuitGameBtn"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:background="#ffff5252"
+            android:textColor="#ff000000"
+            android:textSize="30dp" />
+    </LinearLayout>
+</LinearLayout>

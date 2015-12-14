@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:orientation="vertical"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/ScoreEnterLayout"
+    p1:background="#ff000000">
+    <TextView
+        p1:text="Your Score"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/PlayerScoreTitle" />
+    <TextView
+        p1:text="PlayerScoreHere"
+        p1:textAppearance="?android:attr/textAppearanceMedium"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/PlayerScoreText"
+        p1:paddingBottom="25dp" />
+    <TextView
+        p1:text="Your Name"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/PlayerNameTitle" />
+    <EditText
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/PlayerName"
+        p1:text="Name Here" />
+    <Button
+        p1:text="Submit Score"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/EnterToMenuBtn"
+        p1:layout_marginTop="50dp" />
+</LinearLayout>

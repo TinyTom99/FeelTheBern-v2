@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/ScrollView"
+    p1:minWidth="25px"
+    p1:minHeight="25px"
+    p1:background="#ff000000">
+    <LinearLayout
+        p1:orientation="vertical"
+        p1:layout_width="match_parent"
+        p1:layout_height="match_parent"
+        p1:id="@+id/HelpLayout">
+        <LinearLayout
+            p1:orientation="vertical"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/StoryLayout">
+            <TextView
+                p1:text="STORY"
+                p1:textAppearance="?android:attr/textAppearanceLarge"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/StoryTitle"
+                p1:textSize="42dp"
+                p1:paddingLeft="5dp" />
+            <TextView
+                p1:text="You are become Bernie Sanders, destroyer of worlds."
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/StoryText"
+                p1:paddingBottom="50dp"
+                p1:paddingLeft="10dp" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="vertical"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/ControlsLayout">
+            <TextView
+                p1:text="CONTROLS"
+                p1:textAppearance="?android:attr/textAppearanceLarge"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/ControlsTitle"
+                p1:textSize="42dp"
+                p1:paddingLeft="5dp" />
+            <TextView
+                p1:text="Drag your finger across the screen to Move"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/DragToMoveText"
+                p1:paddingBottom="5dp"
+                p1:paddingLeft="10dp" />
+            <TextView
+                p1:text="Tap the Fire Button to Shoot your AR-15."
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/TapToFireText"
+                p1:paddingBottom="5dp"
+                p1:paddingLeft="10dp" />
+            <TextView
+                p1:text="Press the Menu button to Quit the Game."
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/QuitGameText"
+                p1:paddingBottom="5dp"
+                p1:paddingLeft="10dp" />
+            <TextView
+                p1:text="Click on the Power-Ups to get a boost!"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/PowerupsText"
+                p1:paddingLeft="10dp"
+                p1:paddingBottom="25dp" />
+            <LinearLayout
+                p1:orientation="horizontal"
+                p1:minWidth="25px"
+                p1:minHeight="25px"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/Powerup1Layout">
+                <ImageView
+                    p1:src="@drawable/socializedhealthcarepowerup"
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:id="@+id/Powerup1Image"
+                    p1:paddingLeft="10dp" />
+                <TextView
+                    p1:text="Socialized Healthcare"
+                    p1:textAppearance="?android:attr/textAppearanceMedium"
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:id="@+id/Powerup1Title"
+                    p1:paddingLeft="10dp"
+                    p1:paddingBottom="10dp" />
+            </LinearLayout>
+            <TextView
+                p1:text="You implement a Socialized Healthcare Program into your game, and heal yourself completely! If you have full health, you get bonus Maximum Health."
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/Powerup1Description"
+                p1:paddingLeft="75dp"
+                p1:paddingBottom="25dp" />
+            <LinearLayout
+                p1:orientation="horizontal"
+                p1:minWidth="25px"
+                p1:minHeight="25px"
+                p1:layout_width="386.5dp"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/Powerup2Layout">
+                <ImageView
+                    p1:src="@drawable/guncontrolpowerup"
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:id="@+id/Powerup2Image"
+                    p1:paddingLeft="10dp" />
+                <TextView
+                    p1:text="Gun Control"
+                    p1:textAppearance="?android:attr/textAppearanceMedium"
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:id="@+id/Powerup2Title"
+                    p1:paddingLeft="10dp"
+                    p1:paddingBottom="10dp" />
+            </LinearLayout>
+            <TextView
+                p1:text="You Enforce Gun control on your enemies. They cannot shoot back at you for 10 seconds."
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/Powerup2Description"
+                p1:paddingLeft="75dp"
+                p1:paddingBottom="25dp" />
+            <LinearLayout
+                p1:orientation="horizontal"
+                p1:minWidth="25px"
+                p1:minHeight="25px"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/Powerup3Layout">
+                <ImageView
+                    p1:src="@drawable/toobigtofailpowerup"
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:id="@+id/Powerup3Image"
+                    p1:paddingLeft="10dp" />
+                <TextView
+                    p1:text="Too Big to Fail"
+                    p1:textAppearance="?android:attr/textAppearanceMedium"
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:id="@+id/Powerup3Title"
+                    p1:paddingLeft="10dp"
+                    p1:paddingBottom="10dp" />
+            </LinearLayout>
+            <TextView
+                p1:text="Your enemies believe that they are too big to fail! Their inflated egos cause them to become big-headed and very sluggish."
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/Powerup3Description"
+                p1:paddingLeft="75dp"
+                p1:paddingBottom="25dp" />
+        </LinearLayout>
+        <Button
+            p1:text="Return to Main Menu"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/HelpToMenuBtn" />
+    </LinearLayout>
+</ScrollView>
